@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0E545DB1CCCCB210034A64C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E545DA1CCCCB210034A64C /* AppDelegate.swift */; };
+		B0E545DD1CCCCB210034A64C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E545DC1CCCCB210034A64C /* ViewController.swift */; };
+		B0E545E01CCCCB210034A64C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0E545DE1CCCCB210034A64C /* Main.storyboard */; };
+		B0E545E21CCCCB210034A64C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0E545E11CCCCB210034A64C /* Assets.xcassets */; };
+		B0E545E51CCCCB210034A64C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0E545E31CCCCB210034A64C /* LaunchScreen.storyboard */; };
+		B0E545F61CCCCC300034A64C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E545F51CCCCC300034A64C /* AudioToolbox.framework */; };
+		B0E546011CCCCD0F0034A64C /* BinauralBeat.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E545FF1CCCCD0F0034A64C /* BinauralBeat.m */; };
+		B0E546041CCCCD190034A64C /* WaveGenetor.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E546021CCCCD190034A64C /* WaveGenetor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B0E545D71CCCCB210034A64C /* Binaural Beat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Binaural Beat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0E545DA1CCCCB210034A64C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B0E545DC1CCCCB210034A64C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B0E545DF1CCCCB210034A64C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0E545E11CCCCB210034A64C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0E545E41CCCCB210034A64C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0E545E61CCCCB210034A64C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0E545F51CCCCC300034A64C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B0E545FF1CCCCD0F0034A64C /* BinauralBeat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinauralBeat.m; sourceTree = "<group>"; };
+		B0E546001CCCCD0F0034A64C /* BinauralBeat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinauralBeat.h; sourceTree = "<group>"; };
+		B0E546021CCCCD190034A64C /* WaveGenetor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveGenetor.m; sourceTree = "<group>"; };
+		B0E546031CCCCD190034A64C /* WaveGenetor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveGenetor.h; sourceTree = "<group>"; };
+		B0E546061CCCE6B30034A64C /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0E545D41CCCCB210034A64C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0E545F61CCCCC300034A64C /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0E545CE1CCCCB210034A64C = {
+			isa = PBXGroup;
+			children = (
+				B0E545F41CCCCC1E0034A64C /* frameworks */,
+				B0E545D91CCCCB210034A64C /* BinauralBeatExample */,
+				B0E545D81CCCCB210034A64C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0E545D81CCCCB210034A64C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0E545D71CCCCB210034A64C /* Binaural Beat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0E545D91CCCCB210034A64C /* BinauralBeatExample */ = {
+			isa = PBXGroup;
+			children = (
+				B0E546061CCCE6B30034A64C /* Bridging-Header.h */,
+				B0E545F71CCCCCD50034A64C /* BinauralBeats */,
+				B0E545DA1CCCCB210034A64C /* AppDelegate.swift */,
+				B0E545DC1CCCCB210034A64C /* ViewController.swift */,
+				B0E546051CCCCD810034A64C /* Resources */,
+			);
+			path = BinauralBeatExample;
+			sourceTree = "<group>";
+		};
+		B0E545F41CCCCC1E0034A64C /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0E545F51CCCCC300034A64C /* AudioToolbox.framework */,
+			);
+			name = frameworks;
+			sourceTree = "<group>";
+		};
+		B0E545F71CCCCCD50034A64C /* BinauralBeats */ = {
+			isa = PBXGroup;
+			children = (
+				B0E546021CCCCD190034A64C /* WaveGenetor.m */,
+				B0E546031CCCCD190034A64C /* WaveGenetor.h */,
+				B0E545FF1CCCCD0F0034A64C /* BinauralBeat.m */,
+				B0E546001CCCCD0F0034A64C /* BinauralBeat.h */,
+			);
+			name = BinauralBeats;
+			path = ../../BinauralBeats;
+			sourceTree = "<group>";
+		};
+		B0E546051CCCCD810034A64C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B0E545DE1CCCCB210034A64C /* Main.storyboard */,
+				B0E545E11CCCCB210034A64C /* Assets.xcassets */,
+				B0E545E31CCCCB210034A64C /* LaunchScreen.storyboard */,
+				B0E545E61CCCCB210034A64C /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0E545D61CCCCB210034A64C /* Binaural Beat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0E545E91CCCCB210034A64C /* Build configuration list for PBXNativeTarget "Binaural Beat" */;
+			buildPhases = (
+				B0E545D31CCCCB210034A64C /* Sources */,
+				B0E545D41CCCCB210034A64C /* Frameworks */,
+				B0E545D51CCCCB210034A64C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Binaural Beat";
+			productName = BinauralBeatExample;
+			productReference = B0E545D71CCCCB210034A64C /* Binaural Beat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0E545CF1CCCCB210034A64C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Agustin Prats";
+				TargetAttributes = {
+					B0E545D61CCCCB210034A64C = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = B0E545D21CCCCB210034A64C /* Build configuration list for PBXProject "BinauralBeatExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0E545CE1CCCCB210034A64C;
+			productRefGroup = B0E545D81CCCCB210034A64C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0E545D61CCCCB210034A64C /* Binaural Beat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0E545D51CCCCB210034A64C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0E545E51CCCCB210034A64C /* LaunchScreen.storyboard in Resources */,
+				B0E545E21CCCCB210034A64C /* Assets.xcassets in Resources */,
+				B0E545E01CCCCB210034A64C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0E545D31CCCCB210034A64C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0E545DD1CCCCB210034A64C /* ViewController.swift in Sources */,
+				B0E545DB1CCCCB210034A64C /* AppDelegate.swift in Sources */,
+				B0E546011CCCCD0F0034A64C /* BinauralBeat.m in Sources */,
+				B0E546041CCCCD190034A64C /* WaveGenetor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B0E545DE1CCCCB210034A64C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0E545DF1CCCCB210034A64C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0E545E31CCCCB210034A64C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0E545E41CCCCB210034A64C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0E545E71CCCCB210034A64C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B0E545E81CCCCB210034A64C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0E545EA1CCCCB210034A64C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = BinauralBeatExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.agustin-prats.BinauralBeatExample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "../Example/BinauralBeatExample/Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B0E545EB1CCCCB210034A64C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = BinauralBeatExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.agustin-prats.BinauralBeatExample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "../Example/BinauralBeatExample/Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0E545D21CCCCB210034A64C /* Build configuration list for PBXProject "BinauralBeatExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0E545E71CCCCB210034A64C /* Debug */,
+				B0E545E81CCCCB210034A64C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0E545E91CCCCB210034A64C /* Build configuration list for PBXNativeTarget "Binaural Beat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0E545EA1CCCCB210034A64C /* Debug */,
+				B0E545EB1CCCCB210034A64C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0E545CF1CCCCB210034A64C /* Project object */;
+}
